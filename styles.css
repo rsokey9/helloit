@@ -1,0 +1,190 @@
+body{
+    background-image: url(./Resources/gplaypattern.png);
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+#logoname{
+    color: white;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navegacion{
+    background-color: #212529;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    font-weight: 300;
+}
+.navegacion ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.navegacion ul li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.navegacion li a{
+    pad: 7px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+}
+.navegacion li:hover, li:active{
+    background-color: gray;
+    transition: .3s;
+}
+.navegacion li>ul{
+    display: none;
+    position: absolute;
+}
+.navegacion li:hover > ul{
+    display: block;
+}
+.bodyIndex{
+    width: 100%;
+    height: 600px;
+    background-image: url(./Resources/bkcindex.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tituloIndex{
+    margin-top: 110px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: .5px .5px .5px gray
+}
+#indexCarousel{
+    margin-top: 160px;
+}
+.carousel-item{
+    padding-top: 120px;
+    background-color: transparent;
+    color: honeydew;
+    position: relative;
+}
+.index a{
+    font-size: x-large;
+    font-weight: 700;
+    height: 80px;
+    width: 500px;
+    margin-left: 34%;
+    color: gray;
+    text-shadow: 1px 1px 1px black;
+}
+.bodyAbout{
+    width: 100%;
+    height: 650px;
+    background-image: url(./Resources/bckabout.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tituloAbout{
+    margin-top: 110px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px gray;
+}
+.nosotros p{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    text-align: justify;
+}
+.nosotros h1{
+    text-align: center;
+    color:black;
+}
+.nosotros p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 32%;
+    padding: 0 1rem;
+    background: none;
+    height: 320px;
+    width: 500px;
+}
+.tituloSoftware{
+    margin-top: 85px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: .5px .5px .5px gray
+}
+#grid img{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 80px;
+}
+#grid .col-lg-4{
+    padding: 25px;
+}
+#grid img:hover{
+    border: 2px solid transparent;
+}
+.column{
+    display: flex;
+    align-items: center;
+}
+.bodyClientes{
+    width: 100%;
+    height: 500px;
+    background-image: url(./Resources/bckclientes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.gallery img{
+    width: 50%;
+}
+.tituloContacto{
+    margin-top: 85px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: .5px .5px .5px gray
+}
+.secContacto{
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+    background-color: #212529;
+    height: 40px;
+    width: 100vw;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, .6);
+    bottom: 0;
+    position:fixed;
+}
+#copy{
+    color: white;
+    font-size: 12px;
+    padding: 0 80px;
+    font-weight: 250;
+    text-align: center;
+}
